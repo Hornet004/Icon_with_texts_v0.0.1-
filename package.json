@@ -1,0 +1,34 @@
+{
+  "name": "icon_with_texts_v0.0.1-",
+  "version": "0.0.1",
+  "description": "text with Icon component",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "budo demo/demo.js:bundle.js --open --live",
+    "build": "browserify demo/demo.js > bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hornet004/Icon_with_texts_v0.0.1-.git"
+  },
+  "keywords": [
+    "text",
+    "with",
+    "icon",
+    "component",
+    "for",
+    "quick",
+    "use"
+  ],
+  "author": "Wizardamigos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hornet004/Icon_with_texts_v0.0.1-/issues"
+  },
+  "homepage": "https://github.com/Hornet004/Icon_with_texts_v0.0.1-#readme",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "budo": "^11.8.4"
+  }
+}
